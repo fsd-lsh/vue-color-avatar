@@ -2,27 +2,10 @@
   <header class="header">
     <Logo />
 
-    <h2 class="site-title">Color Avatar</h2>
+    <h2 class="site-title">Force's Blog - Color Avatar</h2>
 
     <div class="header-right">
-      <a
-        href="https://github.com/Codennnn/vue-color-avatar"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-      >
-        <button
-          type="button"
-          class="github-button"
-          @click="
-            recordEvent('click_github', {
-              event_category: 'click',
-            })
-          "
-        >
-          <img :src="IconGitHub" alt="GitHub" />
-          <span class="text">GitHub</span>
-        </button>
-      </a>
+
     </div>
   </header>
 </template>
